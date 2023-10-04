@@ -1,0 +1,42 @@
+
+.open-sans-text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Use Lato for specific elements */
+.lato-text {
+  font-family: 'Lato', sans-serif;
+}
+
+
+.carousel-item {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-content {
+  flex: 1;
+  text-align: center;
+  margin: 0 15px;  /* This adds a 15px space on the left and right of each item */
+}
+
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;  /* Centers the image */
+}
+
+.carousel-text {
+  padding: 10px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* You can change this to adjust the chevron background */
+}
+
+.carousel-control-prev, .carousel-control-next {
+  z-index: 1;
+}
